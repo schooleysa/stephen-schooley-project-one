@@ -1,0 +1,70 @@
+header {
+    max-width: 1280px;
+    height: 700px;
+    background: url(../Assets/home-1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    display: flex;
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 100%;
+            height: 50px;
+            margin-top: 25px;
+
+
+                H1 {
+                    margin: 0;
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight: 700;
+                    font-size: 37px;
+                }
+             
+            }
+
+        }
+
+.navleft {
+    order: -1;
+    margin-left: 50px;
+        ul {
+            margin: 0;
+            padding: 0;
+                li {
+                    list-style-type: none;
+                    display: inline;
+                    padding-right: 10px;
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 14px;
+                
+                }
+        }
+}
+
+.navright {
+    margin-right: 50px;
+        ul {
+            margin: 0;
+            padding: 0;
+            li {
+                list-style-type: none;
+                display: inline;
+                padding-right: 10px;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 14px;
+            
+            }
+        }
+}
+
+.navicon {
+    width: 17px;
+    margin-right: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
