@@ -453,14 +453,6 @@ footer {
 }
 
 
-
-@media (max-width: 832px) {
-    
-    .mid3 {
-        height: 900px;
-    }
-}
-
 @media (max-width: 1160px) {
     .mid2{
         background-image: url(../Assets/mid2mediaquery.png);
@@ -468,6 +460,13 @@ footer {
     }
     .mid2Container {
         justify-content: center;
+    }
+}
+
+@media (max-width: 832px) {
+    
+    .mid3 {
+        height: 900px;
     }
 }
 

@@ -386,29 +386,9 @@ footer {
 
 @media (max-width: 768px) {
 
-        .wrapper {
-            width: 90%;
-        }
-        
-}
-
-@media (max-width: 595px) {
-
-    .articleInfo {
-        flex-direction: column;
-    }
-
-    .categories {
-        width: 100%;
-    }
-
     .wrapper {
-        height: 2750px;
+        width: 90%;
     }
-
-}
-
-@media (max-width: 768px) {
 
     .navleft {
         margin-left: 0;
@@ -448,4 +428,20 @@ footer {
     header ul li {
         display: block;
     }
+}
+
+@media (max-width: 595px) {
+
+    .articleInfo {
+        flex-direction: column;
+    }
+
+    .categories {
+        width: 100%;
+    }
+
+    .wrapper {
+        height: 2750px;
+    }
+
 }
