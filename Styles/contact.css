@@ -17,8 +17,6 @@ h2 {
     line-height: 24px;
 }
 
-/*nav STYLE*/
-
 nav {
     display: flex;
     justify-content: space-around;
@@ -27,30 +25,21 @@ nav {
     height: 50px;
 }
 
-/*navleft STYLE*/
-
 .navleft {
     order: -1;
     margin-left: 50px;
 }
 
-
-/*navrightSTYLE*/
-
 .navright {
     margin-right: 50px;
 }
 
-/*navicon STYLE*/
-
 .navicon {
     width: 17px;
     margin-right: 5px;
- 
 }
 
 
-/*H1 STYLE*/
 
 H1 {
     margin: 0;
@@ -59,16 +48,10 @@ H1 {
     font-size: 37px;
 }
 
-/*ul STYLE*/
-
 ul {
     margin: 0;
     padding: 0;
 }
-
-
-/*ul/li STYLE*/
-
 
  header ul li {
     list-style-type: none;
@@ -78,8 +61,6 @@ ul {
     font-size: 14px;
 
 }
-
-/*a STYLE*/
 
 a {
     text-decoration: none;
@@ -220,6 +201,7 @@ footer {
 
 .posts {
     font-family: 'Open Sans', sans-serif; 
+    margin-bottom: 10px;
 }
 
 .posts h2 {
@@ -235,7 +217,8 @@ footer {
 
 
 .form {
-    margin-bottom: 35px;
+    text-align: right;
+    margin-top: 15px;
 }
 
 .form h2{
@@ -249,7 +232,7 @@ footer {
 }
 
 form {
-    margin-top: 25px;
+    margin-top: 10px;
 }
 
 label {
@@ -326,6 +309,9 @@ footer {
         padding-left: 0px;
     }
 
+    .form {
+        text-align: left;
+    }
 
 }
 
