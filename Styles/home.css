@@ -27,6 +27,7 @@ html, body {
         left: calc(50% - 30%);
         z-index: 1;
         margin: 200px auto;
+        border: #C3DAB7 2px solid;
 }
 
 .modalHead {
